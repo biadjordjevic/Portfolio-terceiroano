@@ -1,0 +1,78 @@
+*{
+    margin-left: 0;
+    /* margin-right: 0; */
+}
+body{
+    background-color:#1c2736 ;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#navbar{
+    height: 100%;
+    align-items: center;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    background-color:#1c2736;
+    margin: 0;
+}
+
+.menu-texto{
+    padding: 5px;
+    color: #c0c8ca;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.img-perfil{
+    height: 300px;
+    border-radius: 20px;
+}
+
+.perfil-container{
+    padding-left: 3%;
+    background-color: #a9b7b7;
+    padding-bottom: 100%;
+    padding-top: 20px;
+    max-width: fit-content;
+    padding-right: 15px;
+    border-top-left-radius: 20px;
+}
+
+.container{
+    display: flex;
+}
+
+.side-container{
+    width: 100%;
+    background-color:#304057;
+    padding-top: 50px;
+    padding-left: 50px;
+    border-top-right-radius: 20px;
+}
+
+.email-container{
+    display: flex;
+    padding-top: 10px;
+    align-items: center;
+    padding-right: 10px;
+}
+
+.img-email{
+    height:35px;
+    margin-right: 5px;
+}
+.github-container{
+    display: flex;
+    padding-top: 10px;
+    align-items: center;
+    padding-right: 10px;
+}
+
+.img-github{
+    height:35px;
+    margin-right: 5px;
+}
