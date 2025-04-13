@@ -2,12 +2,38 @@
     margin-left: 0;
     /* margin-right: 0; */
 }
+@font-face {
+    font-family: 'Black Mango';
+    src: url('fontes/black-mango-regular.ttf') format('truetype');
+  } 
+  @font-face {
+    font-family: 'Telegraf bold';
+    src: url('fontes/Telegraf\ UltraBold\ 800.otf') format('truetype');
+  } 
+  @font-face {
+    font-family: 'Telegraf light';
+    src: url('fontes/Telegraf\ UltraLight\ 200.otf') format('truetype');
+  } 
+  @font-face {
+    font-family: 'Telegraf regular';
+    src: url('fontes/TelegrafRegular_272984568a25d8528fe2de8b20b29011.otf') format('truetype');
+  } 
+
+  @font-face {
+    font-family: 'Dream avenue';
+    src: url('fontes/FontsFree-Net-Dream-Avenue.ttf') format('truetype');
+  }
+
 body{
     background-color:#1c2736 ;
     overflow-x: hidden;
     font-family: Arial, Helvetica, sans-serif;
     background-image: url(img/portfólio-backgrounds.png);
-    background-size: 100%;
+    background-size: 100%;background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    font-family: 'Telegraf regular', serif;
 }
 
 #navbar{
@@ -16,10 +42,11 @@ body{
     display: flex;
     list-style: none;
     justify-content: center;
-    background-color:#f2ad94;
+    background-color:rgba(255, 255, 255, 0.308);
     margin: 0;
-    border-radius: 25px;
+    border-radius: 30px;
     width: 500px;
+    margin-bottom: 50px;
 }
 
 .menu-texto{
@@ -47,25 +74,24 @@ body{
     border-radius: 20px;
     height: fit-content;
     box-shadow:  20px 20px #f2ad94;
-
-
 }
 
 .container{
     display: flex;
+    margin-bottom: 50px;
 }
 
 .side-container{
     margin-top: 40px;
-    padding-bottom: 100px;
+    padding-bottom: 15px;
     height: fit-content;
     border-radius: 30px;
     background-color: #f2905798;
     margin-left: 70px;
-    padding-top: 50px;
-    padding-left: 50px;
+    padding-top: 20px;
     border-top-right-radius: 20px;
-    width: 1200px;
+    width: 800px;
+    text-align: left;
 }
 
 .email-container{
@@ -99,4 +125,95 @@ body{
 
 .container-text{
     color: #ffffff;
+    padding-left: 10px;
+}
+
+#carrossel{
+    position: relative;
+    width: 500px;
+    height: auto;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+#carrossel-container{
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carrossel-slide{
+    min-width: 100%; /* largura exata do carrossel */
+    max-width: 100%;
+}
+
+.slide1-titulo{
+    font-size: 35px;
+    padding-bottom: 10px;
+    color: #ffffff;
+    font-family: 'Dream avenue', serif;
+}
+.slide2-titulo{
+    padding-bottom: 10px;
+    color: #ffffff;
+}
+.slide3-titulo{
+    padding-bottom: 10px;
+    color: #ffffff;
+}
+.slide4-titulo{
+    padding-bottom: 10px;
+    color: #ffffff;
+}
+.btn-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+#carrossel-btn{
+    height: 40px;
+    width: 40px;
+    border: 1px solid white;
+    color: white;
+    border-radius: 50px;
+    background-color: transparent;
+    margin-left: 15px;
+}
+#carrossel-btn-voltar{
+    height: 40px;
+    width: 40px;
+    border: 1px solid white;
+    color: white;
+    border-radius: 50px;
+    background-color: transparent;
+    margin-right: 15px;
+}
+.sobre-mim{
+    color: #ffffff;
+}
+
+.carrossel-slide1{
+    margin-top: 80px;
+}
+
+.img-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sobre{
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.menu-texto-inicio{
+    padding: 5px;
+    color: #f27144;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
 }
