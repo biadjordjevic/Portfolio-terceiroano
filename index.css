@@ -84,13 +84,13 @@ body{
 .side-container{
     margin-top: 40px;
     padding-bottom: 15px;
-    height: fit-content;
+    height: 60vh;
     border-radius: 30px;
     background-color: #f2905798;
     margin-left: 70px;
     padding-top: 20px;
     border-top-right-radius: 20px;
-    width: 800px;
+    width: 70vw;
     text-align: left;
 }
 
@@ -130,8 +130,8 @@ body{
 
 #carrossel{
     position: relative;
-    width: 500px;
-    height: auto;
+    width: 900px;
+    height: 500px;
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -150,10 +150,11 @@ body{
 }
 
 .slide1-titulo{
-    font-size: 35px;
+    font-size: 50px;
     padding-bottom: 10px;
     color: #ffffff;
     font-family: 'Dream avenue', serif;
+    letter-spacing: 1;
 }
 .slide2-titulo{
     padding-bottom: 10px;
@@ -162,10 +163,12 @@ body{
 .slide3-titulo{
     padding-bottom: 10px;
     color: #ffffff;
+    font-size: 30px;
 }
 .slide4-titulo{
     padding-bottom: 10px;
-    color: #ffffff;
+    color: #f27144;
+    font-size: 50px;
 }
 .btn-container{
     display: flex;
@@ -194,6 +197,7 @@ body{
 }
 .sobre-mim{
     color: #ffffff;
+   font-size: 25px; 
 }
 
 .carrossel-slide1{
@@ -206,7 +210,7 @@ body{
     justify-content: center;
 }
 .sobre{
-    font-size: 20px;
+    font-size: 25px;
     color: #ffffff;
 }
 
@@ -216,4 +220,59 @@ body{
     text-decoration: none;
     font-weight: bold;
     font-size: 18px;
+}
+
+.slide3-container{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+}
+
+.slide3-portfolio-container{
+    display: flex;
+    gap: 40px;
+}
+
+.link-slide3{
+    text-decoration: none;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgba(255, 255, 255, 0.322);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    max-width: fit-content;
+    /* max-height: fit-content; */
+}
+
+.curriculo-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.slide4-container{
+    display: flex;
+    margin-top: 150px;
+    align-items: center;
+    justify-content: center;
+}
+
+.link-slide4{
+    text-decoration: none;
+    padding-right: 50px;
+    padding-left: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgba(255, 255, 255, 0.322);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 30px;
+    max-width: fit-content;
+    max-height: fit-content;
 }
