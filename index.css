@@ -82,9 +82,11 @@ body{
 }
 
 .side-container{
+    padding-left: 15px;
+    padding-right: 15px;
     margin-top: 40px;
     padding-bottom: 15px;
-    height: 60vh;
+    height: min-content;
     border-radius: 30px;
     background-color: #f2905798;
     margin-left: 70px;

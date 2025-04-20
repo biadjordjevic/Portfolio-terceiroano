@@ -1,0 +1,20 @@
+#navbar{
+    height: 100%;
+    align-items: center;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    background-color:rgba(255, 255, 255, 0.308);
+    margin: 0;
+    border-radius: 30px;
+    width: 500px;
+    margin-bottom: 50px;
+}
+
+.menu-texto{
+    padding: 5px;
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
