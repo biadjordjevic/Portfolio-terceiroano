@@ -147,7 +147,7 @@ body{
 }
 
 .carrossel-slide{
-    min-width: 100%; /* largura exata do carrossel */
+    min-width: 100%; 
     max-width: 100%;
 }
 

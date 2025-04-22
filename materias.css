@@ -81,40 +81,80 @@ body{
     font-size: 25px;
 }
 
-.container-materias{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-}
-.container-materias img{
-    height: 400px;
-    width: 400px;
-}
-.container-materias p {
-    font-size: 30px;
-    color: #f27144;
-    font-weight: 550;
-}
-.container-materias a {
-    text-decoration: none;
-}
-
-.container-links{
+.titulo{
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10px;
+    font-size: 70px;
+    font-weight: 800;
+    color: #f27144;
 }
 
 .container{
-    background-color: #ffffff;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+    padding-left: 80px;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
-.container h1{
-    color: #f27144;
-    padding-left: 20px;
-    font-weight: 700;
+.conteudo-recolhivel img{
+height: 400px;
+width: 400px;
 }
+
+.conteudo-recolhivel{
+    display: none;
+}
+
+.container-conteudo{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.btn{
+    width: 500px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #f27144;
+    border-radius: 30px;
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 600;
+    background-color: #f27144;
+    text-align: start;
+}
+
+.atividade-nome{
+    font-size: 30px;
+    color: #f27144;
+    font-weight: 900;
+}
+
+.atividade-descricao{
+    font-size: 20px;
+    max-width: 300px;
+    color: #000000;
+}
+
+.content-container{
+    word-wrap: break-word;
+    word-break: break-word;
+}
+
+.Habilidades{
+    font-size: 30px;
+    color: #f27144;
+    font-weight: 900;
+}
+ .habilidades-container{
+    display: flex;
+    align-items: center;
+ }
+
+ .habilidades{
+    font-size: 20px;
+    padding-left: 5px;
+ }
