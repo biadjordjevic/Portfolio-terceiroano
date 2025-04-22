@@ -141,8 +141,12 @@ width: 400px;
 }
 
 .content-container{
+    border: none;
     word-wrap: break-word;
+    padding: 15px;
+    background-color: #ffffff8f;
     word-break: break-word;
+    border-radius: 20px;
 }
 
 .Habilidades{
