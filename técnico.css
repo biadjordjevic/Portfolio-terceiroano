@@ -167,3 +167,25 @@ width: 400px;
  .link-menu{
     text-decoration: none;
  }
+
+ .uc {
+    margin-top: 15px;
+}
+
+.btn-uc {
+    width: 200px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 13px;
+    border: none;
+    color: #f27144;
+    font-size: 12px;
+    font-weight: 600;
+    background-color: #ffffff;
+    text-align: start;
+}
+
+.uc-conteudo {
+    display: none;
+    padding-left: 20px; /* um recuo visual */
+}
