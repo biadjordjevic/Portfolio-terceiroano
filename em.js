@@ -68,5 +68,20 @@ document.addEventListener("DOMContentLoaded", () =>{
         });
     });
 
-  
+  document.addEventListener("DOMContentLoaded", () =>{
+    const botao =document.getElementById("btn3");
+    const conteudo = document.getElementById("conteudo-recolhivel3");
+    
+    botao.addEventListener("click", () =>{
+        const visivel =conteudo.style.display === "block";
+        if(visivel){
+            conteudo.style.display = "none";
+            botao.textContent = "3° trimestre";
+        }
+        else{
+            conteudo.style.display = "block";
+            botao.textContent = "Fechar";
+        }
+    }); })
+
     
